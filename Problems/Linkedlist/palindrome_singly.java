@@ -73,12 +73,12 @@ public class palindrome_singly {
         //     List1.add(i);
         // }
         List1.add(1);
-        List1.add(2);
-        List1.add(3);
-        List1.add(4);
-        List1.add(3);
-        List1.add(2);
-        List1.add(1);
+        List1.add(0);
+        List1.add(0);
+        // List1.add(4);
+        // List1.add(3);
+        // List1.add(2);
+        // List1.add(1);
         Node List2 = List1.divide();
         List2  = List1.reverse(List2);
         sc.close();
