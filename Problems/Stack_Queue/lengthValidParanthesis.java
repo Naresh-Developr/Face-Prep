@@ -8,6 +8,7 @@ public class lengthValidParanthesis
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(Balanced(str) ? "Balanced" : "Not Balanced");
+        System.out.println(isBalanced(str));
         sc.close();
     }
     public static int isBalanced(String s){

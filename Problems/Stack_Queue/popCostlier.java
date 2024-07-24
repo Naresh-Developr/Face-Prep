@@ -17,7 +17,7 @@ class popCostlier {
     }
     
     public int pop() {
-        while(q2.size()!=1){
+        while(q2.size()>1){
             q2.add(q1.poll());
         }
         int temp = q1.poll();
