@@ -1,8 +1,4 @@
 package Problems.BinaryTree;
-
-import java.util.Scanner;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.*;
 
 class TreeNode{
